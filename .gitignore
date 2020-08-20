@@ -5,6 +5,10 @@
 .env.build
 # Dependency directories
 node_modules/
+
+#testing reports
+coverage/
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
