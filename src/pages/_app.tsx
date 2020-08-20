@@ -1,9 +1,24 @@
-import '../../styles/globals.css'
+import { AppProps } from 'next/app'
+import Head from 'next/head'
 
-import type { AppProps } from 'next/app'
+import GlobalStyles from 'styles/global'
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <Head>
+        <title>Trad</title>
+        <link rel="shortcut icon" href="/img/icon-512.png" />
+        <link rel="apple-touch-icon" href="/img/icon-512.png" />
+        <meta
+          name="description"
+          content="App para controle de operações swing trade"
+        />
+      </Head>
+      <GlobalStyles />
+      <Component {...pageProps} />
+    </>
+  )
 }
 
-export default MyApp
+export default App
