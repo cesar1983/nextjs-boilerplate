@@ -7,12 +7,13 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Trad</title>
+        <title>React Avançado - Boilerplate</title>
         <link rel="shortcut icon" href="/img/icon-512.png" />
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
+        <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="App para controle de operações swing trade"
+          content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
         />
       </Head>
       <GlobalStyles />
