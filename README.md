@@ -12,6 +12,6 @@
 - PWA
 
 
-## for creating a new project using this boilerplate it is easy..
+## for creating a new project using this boilerplate is easy..
 
 yarn create next-app -e https://github.com/cesar1983/nextjs-boilerplate
