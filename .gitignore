@@ -1,21 +1,35 @@
-# next.js build output
-.next
-# dotenv environment variables file (build for Zeit Now)
-.env
-.env.build
-# Dependency directories
-node_modules/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-#testing reports
-coverage/
+# testing
+/coverage
 
-# Logs
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# PWA 
+# sw stuff
 public/sw.js
-public/workbox*.js
+public/workbox-*.js
 
+# storybook
+storybook-static
