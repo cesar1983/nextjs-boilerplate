@@ -9,8 +9,10 @@ export default {
     description: 'description default'
   }
 } as Meta
+/* pode definir valores default momento da declacao do meta */
 
 export const Basic: Story = (args) => <Main {...args} />
+/* pode tbm definir/redefini os valores no momento da declacao do story */
 Basic.args = {
   title: 'title basic',
   description: 'description basic'
