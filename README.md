@@ -6,7 +6,7 @@
 - Prettier
 - Husky for git hooks ( used with lint )
 - Jest
-- React-testing
+- React-testing Library
 - Styled-Components
 - Storybook
 - PWA
